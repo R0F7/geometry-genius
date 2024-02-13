@@ -26,3 +26,11 @@ function calculateTriangleArea() {
 
 }
 
+//bg color change 
+const bg = document.getElementById('card1');
+bg.addEventListener('mouseenter',function(){
+    bg.style.backgroundColor = 'pink';
+});
+bg.addEventListener('mouseleave',function(){
+    bg.style.backgroundColor = 'transparent';
+})
